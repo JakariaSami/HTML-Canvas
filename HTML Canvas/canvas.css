@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Sriracha', sans-serif;
+}
+
+.customize {
+    position: absolute;
+    z-index: 1;
+    background: black;
+    padding: 10px;
+    border-radius: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5px;
+    display: flex;
+    align-items: center;
+    width: 325px;
+    justify-content: space-between;
+    color: #f3f3f3;
+    text-transform:uppercase;
+    font-size:15px;
+}
